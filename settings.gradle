@@ -1,2 +1,5 @@
 rootProject.name = 'Java_practice'
+include 'test1'
+include 'src:main:Ex7_3'
+findProject(':src:main:Ex7_3')?.name = 'Ex7_3'
 
