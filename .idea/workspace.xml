@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="array 학습">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/array/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/array/Book.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="array 학습 - 초기화, 객체 array, 얕은복사, 2차원 배열">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arraylist/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arraylist/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arraylist/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,32 +72,32 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/HYEOKGI/IdeaProjects/Java_practice",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HYEOKGI/IdeaProjects/Java_practice&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayTest">
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.array.ArrayTest" />
+  <component name="RunManager" selected="Application.ArrayListTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.arraylist.ArrayListTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.array.*" />
+          <option name="PATTERN" value="org.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch7_11 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Ch7_11" />
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.array.ArrayTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,19 +174,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.ArrayListTest" />
       <item itemvalue="Application.ArrayTest" />
-      <item itemvalue="Application.Ch7_11 (2)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.Java_practice [build]" />
       <item itemvalue="Gradle.Java_practice [clean]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.Java_practice [build]" />
         <item itemvalue="Gradle.Java_practice [clean]" />
-        <item itemvalue="Application.Ch7_11 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +211,8 @@
       <workItem from="1684237378774" duration="186000" />
       <workItem from="1698150318869" duration="1269000" />
       <workItem from="1698151635172" duration="5651000" />
-      <workItem from="1698564071223" duration="6259000" />
+      <workItem from="1698564071223" duration="6448000" />
+      <workItem from="1698666235311" duration="1555000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698564325552</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="array 학습 - 초기화, 객체 array, 얕은복사, 2차원 배열">
+      <created>1698596340814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698596340814</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +264,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Ex7_2, Ex7_3 : this와 super" />
     <MESSAGE value="array 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="array 학습" />
+    <MESSAGE value="array 학습 - 초기화, 객체 array, 얕은복사, 2차원 배열" />
+    <option name="LAST_COMMIT_MESSAGE" value="array 학습 - 초기화, 객체 array, 얕은복사, 2차원 배열" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
