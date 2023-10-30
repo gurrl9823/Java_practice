@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="array 학습 - 초기화, 객체 array, 얕은복사, 2차원 배열">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/arraylist/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/arraylist/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/arraylist/Subject.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="arrayList 학습">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/inheritance/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/inheritance/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/inheritance/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/inheritance/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/inheritance/VIPCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,10 +90,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.inheritance" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListTest">
+  <component name="RunManager" selected="Application.CustomerTest">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.arraylist.ArrayListTest" />
       <module name="Java_practice.main" />
@@ -111,6 +114,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.inheritance.CustomerTest" />
+      <module name="Java_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,41 +168,20 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Java_practice [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.ArrayListTest" />
+      <item itemvalue="Application.CustomerTest" />
       <item itemvalue="Application.ArrayTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.Java_practice [build]" />
-      <item itemvalue="Gradle.Java_practice [clean]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerTest" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.Java_practice [build]" />
-        <item itemvalue="Gradle.Java_practice [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +207,7 @@
       <workItem from="1698150318869" duration="1269000" />
       <workItem from="1698151635172" duration="5651000" />
       <workItem from="1698564071223" duration="6448000" />
-      <workItem from="1698666235311" duration="1555000" />
+      <workItem from="1698666235311" duration="7058000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -242,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698596340814</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="arrayList 학습">
+      <created>1698668040874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698668040875</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +267,8 @@
     <MESSAGE value="Ex7_2, Ex7_3 : this와 super" />
     <MESSAGE value="array 학습" />
     <MESSAGE value="array 학습 - 초기화, 객체 array, 얕은복사, 2차원 배열" />
-    <option name="LAST_COMMIT_MESSAGE" value="array 학습 - 초기화, 객체 array, 얕은복사, 2차원 배열" />
+    <MESSAGE value="arrayList 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrayList 학습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
