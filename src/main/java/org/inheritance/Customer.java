@@ -10,6 +10,7 @@ public class Customer {
     protected int point;
     protected double bonusRatio;
 
+
     /*
     public Customer() {
 //        super(); extends는 안써있지만 부모클래스의 생성자를 호출함. 모든 클래스의 최상위 클래스는 Object 라는 클래스이다. Object가 부모클래스가 되는 것. extends Object라고 써있는 것과 같음.
@@ -17,6 +18,10 @@ public class Customer {
         this.bonusRatio = 0.01;
         System.out.println("Customer 생성자 호출 : 상위 클래스 먼저 생성되고");
     }*/
+    public int calPrice(int price) {
+        this.point += price * this.bonusRatio;
+        return price;
+    }
 
     public Customer(int id, String name) {
         this.id = id;
@@ -26,13 +31,8 @@ public class Customer {
         System.out.println("Customer(int, String) 생성자 호출 : 상위 클래스 먼저 생성되고");
     }
 
-    public int calPrice(int price) {
-        this.point += price * this.bonusRatio;
-        return price;
-    }
-
     public void showCustomerInfo() {
-        System.out.println(this.name + "님의 등급은 " + this.grade + "이며, 포인트는" + this.point + "점 입니다.");
+        System.out.println(this.name + "님의 등급은 " + this.grade + "이며, 포인트는 " + this.point + "점 입니다.");
     }
 
     public int getId() {
