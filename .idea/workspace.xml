@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="inheritance(상속) 학습&#10; - Override, 다형성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstractex/AICar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstractex/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstractex/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstractex/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstractex/ComputerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstractex/Desktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstractex/ManualCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstractex/MyNotebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstractex/Notebook.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="추상클래스, 추상메소드, 템플릿 메소드 학습">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/AdvancedLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/BeginnerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/Mainboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/PlayerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/SuperLevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,12 +90,15 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.templatemethod" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.inheritance" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarTest">
+  <component name="RunManager" selected="Application.Mainboard">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.arraylist.ArrayListTest" />
       <module name="Java_practice.main" />
@@ -151,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="Mainboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.templatemethod.Mainboard" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.templatemethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,18 +166,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CarTest" />
+      <item itemvalue="Application.Mainboard" />
       <item itemvalue="Application.ArrayListTest" />
       <item itemvalue="Application.CustomerTest" />
       <item itemvalue="Application.ArrayTest" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mainboard" />
         <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.CustomerTest" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.ArrayTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +205,7 @@
       <workItem from="1698564071223" duration="6448000" />
       <workItem from="1698666235311" duration="7532000" />
       <workItem from="1698838871949" duration="5446000" />
-      <workItem from="1698924737397" duration="3823000" />
+      <workItem from="1698924737397" duration="7038000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698847221059</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="추상클래스, 추상메소드, 템플릿 메소드 학습">
+      <created>1698929350183</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698929350183</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +289,8 @@
     <MESSAGE value="arrayList 학습" />
     <MESSAGE value="inheritance(상속) 학습" />
     <MESSAGE value="inheritance(상속) 학습&#10; - Override, 다형성" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance(상속) 학습&#10; - Override, 다형성" />
+    <MESSAGE value="추상클래스, 추상메소드, 템플릿 메소드 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="추상클래스, 추상메소드, 템플릿 메소드 학습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
