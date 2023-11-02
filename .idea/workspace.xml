@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="추상클래스, 추상메소드, 템플릿 메소드 학습">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/AdvancedLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/BeginnerLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/Mainboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/PlayerLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/templatemethod/SuperLevel.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="템플릿 메소드 예제">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/interfaceex/Cal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/interfaceex/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/interfaceex/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/interfaceex/CompleteCal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +55,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -205,7 +204,7 @@
       <workItem from="1698564071223" duration="6448000" />
       <workItem from="1698666235311" duration="7532000" />
       <workItem from="1698838871949" duration="5446000" />
-      <workItem from="1698924737397" duration="7038000" />
+      <workItem from="1698924737397" duration="10059000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698929350183</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="템플릿 메소드 예제">
+      <created>1698932077827</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698932077827</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +296,8 @@
     <MESSAGE value="inheritance(상속) 학습" />
     <MESSAGE value="inheritance(상속) 학습&#10; - Override, 다형성" />
     <MESSAGE value="추상클래스, 추상메소드, 템플릿 메소드 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="추상클래스, 추상메소드, 템플릿 메소드 학습" />
+    <MESSAGE value="템플릿 메소드 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="템플릿 메소드 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
