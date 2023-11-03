@@ -4,37 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="인터페이스 학습">
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="패키지 정리">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/LeastJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/PriorityAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/RoundRobin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/SchedulerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abstractex/AICar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Dabstractex/AICar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abstractex/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Dabstractex/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abstractex/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Dabstractex/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abstractex/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Dabstractex/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abstractex/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Dabstractex/ComputerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abstractex/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Dabstractex/Desktop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abstractex/ManualCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Dabstractex/ManualCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abstractex/MyNotebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Dabstractex/MyNotebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abstractex/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Dabstractex/Notebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/array/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Aarray/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/array/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Aarray/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/arraylist/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Barraylist/ArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/arraylist/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Barraylist/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/arraylist/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Barraylist/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/inheritance/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Cinheritance/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/inheritance/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Cinheritance/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/inheritance/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Cinheritance/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/inheritance/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Cinheritance/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/inheritance/VIPCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Cinheritance/VIPCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/interfaceex/Cal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/Cal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/interfaceex/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/interfaceex/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/interfaceex/CompleteCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/CompleteCal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/templatemethod/AdvancedLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Etemplatemethod/AdvancedLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/templatemethod/BeginnerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Etemplatemethod/BeginnerLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/templatemethod/Mainboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Etemplatemethod/Mainboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/templatemethod/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Etemplatemethod/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/templatemethod/PlayerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Etemplatemethod/PlayerLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/templatemethod/SuperLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Etemplatemethod/SuperLevel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,26 +98,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Mainboard">
+  <component name="RunManager" selected="Application.SchedulerTest">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Barraylist.ArrayListTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.Barraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Aarray.ArrayTest" />
-      <module name="Java_practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Aarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,20 +151,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SchedulerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Gscheduler.SchedulerTest" />
+      <module name="Java_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Gscheduler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.SchedulerTest" />
       <item itemvalue="Application.CarTest" />
       <item itemvalue="Application.Mainboard" />
       <item itemvalue="Application.ArrayListTest" />
       <item itemvalue="Application.CustomerTest" />
-      <item itemvalue="Application.ArrayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SchedulerTest" />
         <item itemvalue="Application.Mainboard" />
         <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.CustomerTest" />
         <item itemvalue="Application.ArrayListTest" />
-        <item itemvalue="Application.ArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +206,7 @@
       <workItem from="1698666235311" duration="7532000" />
       <workItem from="1698838871949" duration="5446000" />
       <workItem from="1698924737397" duration="10245000" />
-      <workItem from="1699009989865" duration="5460000" />
+      <workItem from="1699009989865" duration="7013000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -302,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698935127877</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="패키지 정리">
+      <created>1699015740109</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699015740109</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +314,8 @@
     <MESSAGE value="추상클래스, 추상메소드, 템플릿 메소드 학습" />
     <MESSAGE value="템플릿 메소드 예제" />
     <MESSAGE value="인터페이스 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="인터페이스 학습" />
+    <MESSAGE value="패키지 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="패키지 정리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
