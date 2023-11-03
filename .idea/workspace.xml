@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="패키지 정리">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/LeastJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/PriorityAllocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/RoundRobin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Gscheduler/SchedulerTest.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="인터페이스와 다형성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/Cal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/Cal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/CompleteCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/CompleteCal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +96,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SchedulerTest">
-    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Barraylist.ArrayListTest" />
+  <component name="RunManager" selected="Application.CalculatorTest">
+    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Finterfaceex.CalculatorTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Barraylist.*" />
+          <option name="PATTERN" value="org.Finterfaceex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,19 +163,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CalculatorTest" />
       <item itemvalue="Application.SchedulerTest" />
       <item itemvalue="Application.CarTest" />
       <item itemvalue="Application.Mainboard" />
-      <item itemvalue="Application.ArrayListTest" />
       <item itemvalue="Application.CustomerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorTest" />
         <item itemvalue="Application.SchedulerTest" />
         <item itemvalue="Application.Mainboard" />
         <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.CustomerTest" />
-        <item itemvalue="Application.ArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +204,7 @@
       <workItem from="1698666235311" duration="7532000" />
       <workItem from="1698838871949" duration="5446000" />
       <workItem from="1698924737397" duration="10245000" />
-      <workItem from="1699009989865" duration="7013000" />
+      <workItem from="1699009989865" duration="9095000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -285,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699015740109</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="인터페이스와 다형성">
+      <created>1699017440025</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699017440025</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +320,8 @@
     <MESSAGE value="템플릿 메소드 예제" />
     <MESSAGE value="인터페이스 학습" />
     <MESSAGE value="패키지 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="패키지 정리" />
+    <MESSAGE value="인터페이스와 다형성" />
+    <option name="LAST_COMMIT_MESSAGE" value="인터페이스와 다형성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

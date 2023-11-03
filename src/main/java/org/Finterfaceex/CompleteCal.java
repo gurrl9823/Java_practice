@@ -19,4 +19,10 @@ public class CompleteCal extends Calculator {
     public void showInfo() {
         System.out.println("Cal 인터페이스를 구현하였습니다.");
     }
+
+    // interface에 있는 default메소드를 재정의할 수 있다.
+    @Override
+    public void desctiption() {
+        System.out.println("완성된 계산기입니다.");
+    }
 }
