@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="Object 클래스의 toString, equals, hashCode, clone 메소드">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Istring/StringBuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Istring/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Jclassex/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Jclassex/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Jclassex/StringTest.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="String 클래스 값 비교, Class 클래스로 클래스정보 가져와서 Constructor, Field, Method 가져오기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/GThreeDPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/Material.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/Plastic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/Powder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/ThreeDPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/ThreeDPrinterPlastic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/ThreeDPrinterPowder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/ThreeDPrinterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/Water.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,26 +102,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.Jclassex.StringTest">
+  <component name="RunManager" selected="Application.ThreeDPrinterTest">
     <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Jclassex.ClassTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.Jclassex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Hobject.CloneTest" />
-      <module name="Java_practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Hobject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,6 +142,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeDPrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Kgeneric.ThreeDPrinterTest" />
+      <module name="Java_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Kgeneric.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.Jclassex.StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Jclassex.StringTest" />
       <module name="Java_practice.main" />
@@ -166,18 +170,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ClassTest" />
+      <item itemvalue="Application.ThreeDPrinterTest" />
       <item itemvalue="Application.org.Jclassex.StringTest" />
       <item itemvalue="Application.StringBuilderTest" />
       <item itemvalue="Application.StringTest" />
-      <item itemvalue="Application.CloneTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeDPrinterTest" />
         <item itemvalue="Application.org.Jclassex.StringTest" />
         <item itemvalue="Application.ClassTest" />
         <item itemvalue="Application.StringBuilderTest" />
         <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.CloneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +213,7 @@
       <workItem from="1699009989865" duration="9746000" />
       <workItem from="1699358274487" duration="8000000" />
       <workItem from="1699443573548" duration="2702000" />
-      <workItem from="1699528833862" duration="5321000" />
+      <workItem from="1699528833862" duration="10262000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -316,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699366457597</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="String 클래스 값 비교, Class 클래스로 클래스정보 가져와서 Constructor, Field, Method 가져오기">
+      <created>1699534321131</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699534321131</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +361,8 @@
     <MESSAGE value="자바8에 추가된 interface의 구현메소드." />
     <MESSAGE value="class extends, imterface implements 동시 사용" />
     <MESSAGE value="Object 클래스의 toString, equals, hashCode, clone 메소드" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object 클래스의 toString, equals, hashCode, clone 메소드" />
+    <MESSAGE value="String 클래스 값 비교, Class 클래스로 클래스정보 가져와서 Constructor, Field, Method 가져오기" />
+    <option name="LAST_COMMIT_MESSAGE" value="String 클래스 값 비교, Class 클래스로 클래스정보 가져와서 Constructor, Field, Method 가져오기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
