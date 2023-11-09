@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="class extends, imterface implements 동시 사용">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Hobject/CloneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Hobject/EqualsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Hobject/ToStringEx.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="Object 클래스의 toString, equals, hashCode, clone 메소드">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Istring/StringBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Istring/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Jclassex/ClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Jclassex/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Jclassex/StringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +98,20 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CloneTest">
+  <component name="RunManager" selected="Application.org.Jclassex.StringTest">
+    <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Jclassex.ClassTest" />
+      <module name="Java_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Jclassex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Hobject.CloneTest" />
       <module name="Java_practice.main" />
@@ -110,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Hobject.EqualsTest" />
+    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Istring.StringBuilderTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Hobject.*" />
+          <option name="PATTERN" value="org.Jclassex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringEx (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Hobject.ToStringEx" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Istring.StringTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Hobject.*" />
+          <option name="PATTERN" value="org.Jclassex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,25 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringEx (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Hobject.ToStringEx" />
+    <configuration name="org.Jclassex.StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Jclassex.StringTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Hobject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToStringEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Hobject.ToStringEx" />
-      <module name="Java_practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Hobject.*" />
+          <option name="PATTERN" value="org.Jclassex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +165,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ClassTest" />
+      <item itemvalue="Application.org.Jclassex.StringTest" />
+      <item itemvalue="Application.StringBuilderTest" />
+      <item itemvalue="Application.StringTest" />
       <item itemvalue="Application.CloneTest" />
-      <item itemvalue="Application.EqualsTest" />
-      <item itemvalue="Application.ToStringEx" />
-      <item itemvalue="Application.ToStringEx (3)" />
-      <item itemvalue="Application.ToStringEx (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.Jclassex.StringTest" />
+        <item itemvalue="Application.ClassTest" />
+        <item itemvalue="Application.StringBuilderTest" />
+        <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.CloneTest" />
-        <item itemvalue="Application.EqualsTest" />
-        <item itemvalue="Application.ToStringEx (4)" />
-        <item itemvalue="Application.ToStringEx (3)" />
-        <item itemvalue="Application.ToStringEx" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +207,9 @@
       <workItem from="1698838871949" duration="5446000" />
       <workItem from="1698924737397" duration="10245000" />
       <workItem from="1699009989865" duration="9746000" />
-      <workItem from="1699358274487" duration="7649000" />
+      <workItem from="1699358274487" duration="8000000" />
+      <workItem from="1699443573548" duration="2702000" />
+      <workItem from="1699528833862" duration="5321000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -305,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699360843508</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Object 클래스의 toString, equals, hashCode, clone 메소드">
+      <created>1699366457597</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699366457597</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +349,8 @@
     <MESSAGE value="인터페이스와 다형성" />
     <MESSAGE value="자바8에 추가된 interface의 구현메소드." />
     <MESSAGE value="class extends, imterface implements 동시 사용" />
-    <option name="LAST_COMMIT_MESSAGE" value="class extends, imterface implements 동시 사용" />
+    <MESSAGE value="Object 클래스의 toString, equals, hashCode, clone 메소드" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object 클래스의 toString, equals, hashCode, clone 메소드" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
