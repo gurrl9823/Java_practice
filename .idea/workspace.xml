@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="객체 ArrayList 만들기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/StackTest.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="Stack, Queue 구현하기, iterator로 loop 구현하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/hashset/HashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/hashset/MemberHashSetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/MemberArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/MemberArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/hashset/MemberHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/hashset/MemberHashSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,20 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberArrayListTest">
+  <component name="RunManager" selected="Application.MemberHashSetTest">
+    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Lcollection.hashset.HashSetTest" />
+      <module name="Java_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Lcollection.hashset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Lcollection.arrayList.MemberArrayListTest" />
       <module name="Java_practice.main" />
@@ -110,34 +123,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Lcollection.hashset.MemberHashSetTest" />
+      <module name="Java_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Lcollection.hashset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueueTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Lcollection.arrayList.QueueTest" />
-      <module name="Java_practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Lcollection.arrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Lcollection.arrayList.QueueTest" />
-      <module name="Java_practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Lcollection.arrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Lcollection.arrayList.StackTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
@@ -163,19 +163,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.HashSetTest" />
       <item itemvalue="Application.MemberArrayListTest" />
-      <item itemvalue="Application.QueueTest" />
+      <item itemvalue="Application.MemberHashSetTest" />
       <item itemvalue="Application.QueueTest (1)" />
-      <item itemvalue="Application.StackTest (1)" />
       <item itemvalue="Application.StackTest (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberHashSetTest" />
+        <item itemvalue="Application.HashSetTest" />
         <item itemvalue="Application.MemberArrayListTest" />
         <item itemvalue="Application.QueueTest (1)" />
         <item itemvalue="Application.StackTest (2)" />
-        <item itemvalue="Application.QueueTest" />
-        <item itemvalue="Application.StackTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +209,7 @@
       <workItem from="1699443573548" duration="2702000" />
       <workItem from="1699528833862" duration="10441000" />
       <workItem from="1699617986462" duration="2371000" />
-      <workItem from="1699961822063" duration="4661000" />
+      <workItem from="1699961822063" duration="6733000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -337,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699964099756</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Stack, Queue 구현하기, iterator로 loop 구현하기">
+      <created>1699966715311</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699966715311</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +381,8 @@
     <MESSAGE value="String 클래스 값 비교, Class 클래스로 클래스정보 가져와서 Constructor, Field, Method 가져오기" />
     <MESSAGE value="generic 프로그래밍 Object 클래스로 구현하기, &lt;T&gt; 로 구현하기" />
     <MESSAGE value="객체 ArrayList 만들기" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체 ArrayList 만들기" />
+    <MESSAGE value="Stack, Queue 구현하기, iterator로 loop 구현하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack, Queue 구현하기, iterator로 loop 구현하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
