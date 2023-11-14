@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="String 클래스 값 비교, Class 클래스로 클래스정보 가져와서 Constructor, Field, Method 가져오기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/GThreeDPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/Plastic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/Powder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/ThreeDPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/ThreeDPrinterPlastic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/ThreeDPrinterPowder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/ThreeDPrinterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Kgeneric/Water.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="generic 프로그래밍 Object 클래스로 구현하기, &lt;T&gt; 로 구현하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/MemberArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/MemberArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/hashset/MemberHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +97,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeDPrinterTest">
+  <component name="RunManager" selected="Application.MemberArrayListTest">
     <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Jclassex.ClassTest" />
       <module name="Java_practice.main" />
@@ -116,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Istring.StringBuilderTest" />
+    <configuration name="MemberArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Lcollection.arrayList.MemberArrayListTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Jclassex.*" />
+          <option name="PATTERN" value="org.Lcollection.arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Istring.StringTest" />
+    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Istring.StringBuilderTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
@@ -169,19 +164,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MemberArrayListTest" />
       <item itemvalue="Application.ClassTest" />
       <item itemvalue="Application.ThreeDPrinterTest" />
       <item itemvalue="Application.org.Jclassex.StringTest" />
       <item itemvalue="Application.StringBuilderTest" />
-      <item itemvalue="Application.StringTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberArrayListTest" />
         <item itemvalue="Application.ThreeDPrinterTest" />
         <item itemvalue="Application.org.Jclassex.StringTest" />
         <item itemvalue="Application.ClassTest" />
         <item itemvalue="Application.StringBuilderTest" />
-        <item itemvalue="Application.StringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +208,9 @@
       <workItem from="1699009989865" duration="9746000" />
       <workItem from="1699358274487" duration="8000000" />
       <workItem from="1699443573548" duration="2702000" />
-      <workItem from="1699528833862" duration="10262000" />
+      <workItem from="1699528833862" duration="10441000" />
+      <workItem from="1699617986462" duration="2371000" />
+      <workItem from="1699961822063" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -327,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699534321131</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="generic 프로그래밍 Object 클래스로 구현하기, &lt;T&gt; 로 구현하기">
+      <created>1699539268654</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699539268654</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +366,8 @@
     <MESSAGE value="class extends, imterface implements 동시 사용" />
     <MESSAGE value="Object 클래스의 toString, equals, hashCode, clone 메소드" />
     <MESSAGE value="String 클래스 값 비교, Class 클래스로 클래스정보 가져와서 Constructor, Field, Method 가져오기" />
-    <option name="LAST_COMMIT_MESSAGE" value="String 클래스 값 비교, Class 클래스로 클래스정보 가져와서 Constructor, Field, Method 가져오기" />
+    <MESSAGE value="generic 프로그래밍 Object 클래스로 구현하기, &lt;T&gt; 로 구현하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic 프로그래밍 Object 클래스로 구현하기, &lt;T&gt; 로 구현하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
