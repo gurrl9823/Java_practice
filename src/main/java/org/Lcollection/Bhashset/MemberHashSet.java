@@ -1,31 +1,29 @@
-package org.Lcollection.treeset;
+package org.Lcollection.Bhashset;
 
 import org.Lcollection.Member;
 
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.TreeSet;
 
-public class MemberTreeSet {
+public class MemberHashSet {
 
-    private TreeSet<Member> treeSet;
+    private HashSet<Member> hashSet;
 
-    public MemberTreeSet() {
-        this.treeSet = new TreeSet<>();
-//        this.treeSet = new TreeSet<>(new Member()); // Comparator 인터페이스의 compare() 메소드를 쓰는 방법
+    public MemberHashSet() {
+        this.hashSet = new HashSet<>();
     }
 
     public void addMember(Member member) {
-        this.treeSet.add(member);
+        this.hashSet.add(member);
     }
 
     public boolean rmMember(int id) {
 
-        Iterator<Member> iterator = this.treeSet.iterator();
+        Iterator<Member> iterator = this.hashSet.iterator();
         while (iterator.hasNext()) {
             Member member = iterator.next();
             if (member.getId() == id) {
-                this.treeSet.remove(member);
+                this.hashSet.remove(member);
                 return true;
             }
         }
@@ -34,10 +32,10 @@ public class MemberTreeSet {
     }
 
     public void showAll() {
-        for (Member member : this.treeSet) {
+        for (Member member : this.hashSet) {
             System.out.println(member);
         }
-        System.out.println(this.treeSet);
+        System.out.println(this.hashSet);
         System.out.println();
     }
 

@@ -1,4 +1,4 @@
-package org.Lcollection.arrayList;
+package org.Lcollection.AarrayList;
 
 import org.Lcollection.Member;
 import java.util.ArrayList;

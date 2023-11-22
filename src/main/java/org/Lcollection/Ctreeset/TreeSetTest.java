@@ -1,6 +1,4 @@
-package org.Lcollection.treeset;
-
-import org.Lcollection.Member;
+package org.Lcollection.Ctreeset;
 
 import java.util.TreeSet;
 

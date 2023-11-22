@@ -1,4 +1,4 @@
-package org.Lcollection.hashset;
+package org.Lcollection.Bhashset;
 
 import java.util.HashSet;
 
