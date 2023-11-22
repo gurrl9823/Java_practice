@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="TreeSet 구현하기, 정렬 메소드 구현하기(Comparable의compareTo(), Comparator의 compare())">
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="패키지명 변경">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Dhashmap/MemberHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/MemberArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/AarrayList/MemberArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/MemberArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/AarrayList/MemberArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/AarrayList/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/arrayList/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/AarrayList/StackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/hashset/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Bhashset/HashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/hashset/MemberHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Bhashset/MemberHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/hashset/MemberHashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Bhashset/MemberHashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/treeset/ComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Ctreeset/ComparatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/treeset/MemberTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Ctreeset/MemberTreeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/treeset/MemberTreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Ctreeset/MemberTreeSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Lcollection/treeset/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Ctreeset/TreeSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Dhashmap/MemberHashMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +97,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComparatorTest">
+  <component name="RunManager" selected="Application.MemberHashMapTest">
     <configuration name="ComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Lcollection.Ctreeset.ComparatorTest" />
       <module name="Java_practice.main" />
@@ -122,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Lcollection.Bhashset.HashSetTest" />
+    <configuration name="MemberHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Lcollection.Dhashmap.MemberHashMapTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Lcollection.Bhashset.*" />
+          <option name="PATTERN" value="org.Lcollection.Dhashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,18 +165,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ComparatorTest" />
+      <item itemvalue="Application.MemberHashMapTest" />
       <item itemvalue="Application.MemberTreeSetTest" />
       <item itemvalue="Application.TreeSetTest" />
-      <item itemvalue="Application.HashSetTest" />
       <item itemvalue="Application.MemberHashSetTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberHashMapTest" />
         <item itemvalue="Application.ComparatorTest" />
         <item itemvalue="Application.MemberTreeSetTest" />
         <item itemvalue="Application.TreeSetTest" />
         <item itemvalue="Application.MemberHashSetTest" />
-        <item itemvalue="Application.HashSetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +212,7 @@
       <workItem from="1699617986462" duration="2371000" />
       <workItem from="1699961822063" duration="7728000" />
       <workItem from="1700567998764" duration="2098000" />
-      <workItem from="1700652812162" duration="7945000" />
+      <workItem from="1700652812162" duration="8264000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -372,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700657523164</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="패키지명 변경">
+      <created>1700661571807</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1700661571807</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +408,8 @@
     <MESSAGE value="Stack, Queue 구현하기, iterator로 loop 구현하기" />
     <MESSAGE value="HashSet 구현하기" />
     <MESSAGE value="TreeSet 구현하기, 정렬 메소드 구현하기(Comparable의compareTo(), Comparator의 compare())" />
-    <option name="LAST_COMMIT_MESSAGE" value="TreeSet 구현하기, 정렬 메소드 구현하기(Comparable의compareTo(), Comparator의 compare())" />
+    <MESSAGE value="패키지명 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="패키지명 변경" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
