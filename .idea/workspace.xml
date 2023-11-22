@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="패키지명 변경">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Dhashmap/MemberHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Dhashmap/MemberHashMapTest.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="HashMap 구현하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Etreemap/MemberTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lcollection/Etreemap/MemberTreeMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/HYEOKGI/IdeaProjects/Java_practice/src/main/java/org/Lcollection/treeset",
+    "last_opened_file_path": "C:/Users/HYEOKGI/IdeaProjects/Java_practice/src/main/java/org/Lcollection/Etreemap",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -90,6 +91,7 @@
       <recent name="org.templatemethod" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HYEOKGI\IdeaProjects\Java_practice\src\main\java\org\Lcollection\Etreemap" />
       <recent name="C:\Users\HYEOKGI\IdeaProjects\Java_practice\src\main\java\org\Lcollection\treeset" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -97,7 +99,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberHashMapTest">
+  <component name="RunManager" selected="Application.MemberTreeMapTest">
     <configuration name="ComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Lcollection.Ctreeset.ComparatorTest" />
       <module name="Java_practice.main" />
@@ -124,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Lcollection.Bhashset.MemberHashSetTest" />
+    <configuration name="MemberTreeMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Lcollection.Etreemap.MemberTreeMapTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Lcollection.Bhashset.*" />
+          <option name="PATTERN" value="org.Lcollection.Etreemap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,17 +168,17 @@
     <list>
       <item itemvalue="Application.ComparatorTest" />
       <item itemvalue="Application.MemberHashMapTest" />
+      <item itemvalue="Application.MemberTreeMapTest" />
       <item itemvalue="Application.MemberTreeSetTest" />
       <item itemvalue="Application.TreeSetTest" />
-      <item itemvalue="Application.MemberHashSetTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberTreeMapTest" />
         <item itemvalue="Application.MemberHashMapTest" />
         <item itemvalue="Application.ComparatorTest" />
         <item itemvalue="Application.MemberTreeSetTest" />
         <item itemvalue="Application.TreeSetTest" />
-        <item itemvalue="Application.MemberHashSetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,7 @@
       <workItem from="1699617986462" duration="2371000" />
       <workItem from="1699961822063" duration="7728000" />
       <workItem from="1700567998764" duration="2098000" />
-      <workItem from="1700652812162" duration="8264000" />
+      <workItem from="1700652812162" duration="8881000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -368,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700661571807</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="HashMap 구현하기">
+      <created>1700661931077</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1700661931077</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +418,8 @@
     <MESSAGE value="HashSet 구현하기" />
     <MESSAGE value="TreeSet 구현하기, 정렬 메소드 구현하기(Comparable의compareTo(), Comparator의 compare())" />
     <MESSAGE value="패키지명 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="패키지명 변경" />
+    <MESSAGE value="HashMap 구현하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMap 구현하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
