@@ -1,9 +1,13 @@
 package org.Lcollection;
 
-public class Member {
+import java.util.Comparator;
+
+public class Member implements Comparable<Member>, Comparator<Member> {
 
     private int id;
     private String name;
+
+    public Member() {}
 
     public Member(int id, String name) {
         this.id = id;
@@ -38,6 +42,7 @@ public class Member {
         return this.id;
     }
 
+
     @Override
     public boolean equals(Object obj) {
         if (obj instanceof Member) {
@@ -49,5 +54,21 @@ public class Member {
             }
         }
         return false;
+    }
+
+
+    @Override
+    public int compareTo(Member member) {
+//        return (this.id - member.id); // this 가 더 커서 이 값이 양수이면 정렬은 오름차순이 된다.
+                                      // 반대로 음수이면 내림차순이 된다.
+        return -this.name.compareTo(member.name); // String 끼리의 비교로도 가능하다.
+    }
+
+
+    @Override
+    public int compare(Member member1, Member member2) {
+        // member1 이 위 메소드의 this 와 같다.
+        return -(member1.getId() - member2.getId());
+//        return member1.name.compareTo(member2.getName());
     }
 }
