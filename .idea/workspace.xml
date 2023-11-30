@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="TreeMap 구현하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Minnerclass/InnerTest.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="inner class, static inner class 구현하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Minnerclass/LocalInnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +216,7 @@
       <workItem from="1700652812162" duration="9265000" />
       <workItem from="1700826765774" duration="1711000" />
       <workItem from="1701085769422" duration="600000" />
-      <workItem from="1701343331780" duration="1302000" />
+      <workItem from="1701343331780" duration="3492000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -386,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700662462674</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="inner class, static inner class 구현하기">
+      <created>1701344984105</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701344984105</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,8 @@
     <MESSAGE value="패키지명 변경" />
     <MESSAGE value="HashMap 구현하기" />
     <MESSAGE value="TreeMap 구현하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="TreeMap 구현하기" />
+    <MESSAGE value="inner class, static inner class 구현하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="inner class, static inner class 구현하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
