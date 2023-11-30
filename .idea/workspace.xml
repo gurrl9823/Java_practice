@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="inner class, static inner class 구현하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Minnerclass/LocalInnerTest.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="local inner class 구현하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Nlambda/MyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Nlambda/TestMyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InnerTest">
+  <component name="RunManager" selected="Application.TestMyNumber">
     <configuration name="ComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Lcollection.Ctreeset.ComparatorTest" />
       <module name="Java_practice.main" />
@@ -151,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Lcollection.Ctreeset.MemberTreeSetTest" />
+    <configuration name="TestMyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Nlambda.TestMyNumber" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Lcollection.Ctreeset.*" />
+          <option name="PATTERN" value="org.Nlambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,18 +167,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.InnerTest" />
+      <item itemvalue="Application.TestMyNumber" />
       <item itemvalue="Application.ComparatorTest" />
       <item itemvalue="Application.MemberHashMapTest" />
       <item itemvalue="Application.MemberTreeMapTest" />
-      <item itemvalue="Application.MemberTreeSetTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMyNumber" />
         <item itemvalue="Application.InnerTest" />
         <item itemvalue="Application.MemberTreeMapTest" />
         <item itemvalue="Application.MemberHashMapTest" />
         <item itemvalue="Application.ComparatorTest" />
-        <item itemvalue="Application.MemberTreeSetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +217,7 @@
       <workItem from="1700652812162" duration="9265000" />
       <workItem from="1700826765774" duration="1711000" />
       <workItem from="1701085769422" duration="600000" />
-      <workItem from="1701343331780" duration="3492000" />
+      <workItem from="1701343331780" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -393,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701344984105</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="local inner class 구현하기">
+      <created>1701346855686</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701346855686</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +420,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Ex7_2, Ex7_3 : this와 super" />
     <MESSAGE value="array 학습" />
     <MESSAGE value="array 학습 - 초기화, 객체 array, 얕은복사, 2차원 배열" />
@@ -437,7 +444,8 @@
     <MESSAGE value="HashMap 구현하기" />
     <MESSAGE value="TreeMap 구현하기" />
     <MESSAGE value="inner class, static inner class 구현하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="inner class, static inner class 구현하기" />
+    <MESSAGE value="local inner class 구현하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="local inner class 구현하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
