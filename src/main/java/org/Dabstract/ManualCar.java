@@ -1,4 +1,4 @@
-package org.Dabstractex;
+package org.Dabstract;
 
 public class ManualCar extends Car {
 

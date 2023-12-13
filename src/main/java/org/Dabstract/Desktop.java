@@ -1,4 +1,4 @@
-package org.Dabstractex;
+package org.Dabstract;
 
 public class Desktop extends Computer {
 

@@ -1,4 +1,4 @@
-package org.Jclassex;
+package org.Jclass;
 
 public class Person {
 

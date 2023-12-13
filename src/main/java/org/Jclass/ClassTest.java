@@ -1,4 +1,4 @@
-package org.Jclassex;
+package org.Jclass;
 
 public class ClassTest {
 
@@ -18,7 +18,7 @@ public class ClassTest {
         System.out.println(pclass2.getName()); // org.Jclassex.Person
 
         // 3. Class 클래스의 forName() 메소드 호출
-        Class pclass3 = Class.forName("org.Jclassex.Person");
+        Class pclass3 = Class.forName("org.Jclass.Person");
         System.out.println(pclass3.getName()); // org.Jclassex.Person
         // forName 메소드로 넘어온 string과 동일한 클래스가 있으면
         // 클래스로더가 데이터영역(JVM의 메소드영역)에 로드한다.

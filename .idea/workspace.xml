@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="람다식 사용하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Nlambda/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Nlambda/StringConcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Nlambda/StringConcatImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Nlambda/TestStringConcat.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="객체지향 프로그래밍 방식의 interface 사용과 람다식으로 사용하기 비교 / &#10;람다식의 여러가지 사용법 : 변수, 매개변수, 리턴값">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Ostream/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Ostream/IntArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Ostream/ReduceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Nlambda/TestMyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Nlambda/TestMyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/Cal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterface/Cal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterface/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterface/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Finterfaceex/CompleteCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Finterface/CompleteCal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +104,26 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaTest">
-    <configuration name="InnerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Minnerclass.InnerTest" />
+  <component name="RunManager" selected="Application.ReduceTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Ostream.ArrayListTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Minnerclass.*" />
+          <option name="PATTERN" value="org.Ostream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Ostream.IntArrayTest" />
+      <module name="Java_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Ostream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,25 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTreeMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Lcollection.Etreemap.MemberTreeMapTest" />
+    <configuration name="ReduceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Ostream.ReduceTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Lcollection.Etreemap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Nlambda.TestMyNumber" />
-      <module name="Java_practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Nlambda.*" />
+          <option name="PATTERN" value="org.Ostream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InnerTest" />
+      <item itemvalue="Application.ArrayListTest" />
+      <item itemvalue="Application.IntArrayTest" />
+      <item itemvalue="Application.ReduceTest" />
       <item itemvalue="Application.LambdaTest" />
-      <item itemvalue="Application.TestMyNumber" />
       <item itemvalue="Application.TestStringConcat" />
-      <item itemvalue="Application.MemberTreeMapTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReduceTest" />
+        <item itemvalue="Application.ArrayListTest" />
+        <item itemvalue="Application.IntArrayTest" />
         <item itemvalue="Application.LambdaTest" />
         <item itemvalue="Application.TestStringConcat" />
-        <item itemvalue="Application.TestMyNumber" />
-        <item itemvalue="Application.InnerTest" />
-        <item itemvalue="Application.MemberTreeMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +222,9 @@
       <workItem from="1700652812162" duration="9265000" />
       <workItem from="1700826765774" duration="1711000" />
       <workItem from="1701085769422" duration="600000" />
-      <workItem from="1701343331780" duration="7805000" />
+      <workItem from="1701343331780" duration="8164000" />
+      <workItem from="1702131520467" duration="671000" />
+      <workItem from="1702382141644" duration="3320000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -411,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701348869924</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="객체지향 프로그래밍 방식의 interface 사용과 람다식으로 사용하기 비교 / &#10;람다식의 여러가지 사용법 : 변수, 매개변수, 리턴값">
+      <created>1701351421741</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1701351421741</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +441,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="array 학습" />
     <MESSAGE value="array 학습 - 초기화, 객체 array, 얕은복사, 2차원 배열" />
     <MESSAGE value="arrayList 학습" />
     <MESSAGE value="inheritance(상속) 학습" />
@@ -455,7 +465,8 @@
     <MESSAGE value="inner class, static inner class 구현하기" />
     <MESSAGE value="local inner class 구현하기" />
     <MESSAGE value="람다식 사용하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="람다식 사용하기" />
+    <MESSAGE value="객체지향 프로그래밍 방식의 interface 사용과 람다식으로 사용하기 비교 / &#10;람다식의 여러가지 사용법 : 변수, 매개변수, 리턴값" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체지향 프로그래밍 방식의 interface 사용과 람다식으로 사용하기 비교 / &#10;람다식의 여러가지 사용법 : 변수, 매개변수, 리턴값" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
