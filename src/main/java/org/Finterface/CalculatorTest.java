@@ -1,4 +1,4 @@
-package org.Finterfaceex;
+package org.Finterface;
 
 public class CalculatorTest {
 
