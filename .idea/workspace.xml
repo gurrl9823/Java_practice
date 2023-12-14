@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="stream 학습">
-      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Pexception/ArrayExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Pexception/AutoCloseObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Pexception/AutoCloseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Pexception/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Pexception/IDFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Pexception/IDFormatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Pexception/ThrowsException.java" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="Exception 학습">
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Qstream/FileInoutStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Qstream/FileInputStreamTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Qstream/FileOutputStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Qstream/FileWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Qstream/ScannerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Qstream/SystemInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Jclass/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Jclass/ClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,25 +78,26 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HYEOKGI/IdeaProjects/Java_practice/src/main/java/org/Lcollection/Etreemap&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/HYEOKGI/IdeaProjects/Java_practice",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.templatemethod" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HYEOKGI\IdeaProjects\Java_practice" />
       <recent name="C:\Users\HYEOKGI\IdeaProjects\Java_practice\src\main\java\org\Lcollection\Etreemap" />
       <recent name="C:\Users\HYEOKGI\IdeaProjects\Java_practice\src\main\java\org\Lcollection\treeset" />
     </key>
@@ -113,13 +113,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IDFormatTest">
-    <configuration name="ArrayExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Pexception.ArrayExceptionTest" />
+  <component name="RunManager" selected="Application.FileWriterTest">
+    <configuration name="FileInoutStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Qstream.FileInoutStreamTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Pexception.*" />
+          <option name="PATTERN" value="org.Qstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoCloseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Pexception.AutoCloseTest" />
+    <configuration name="FileInputStreamTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Qstream.FileInputStreamTest2" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Pexception.*" />
+          <option name="PATTERN" value="org.Qstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Pexception.ExceptionTest" />
+    <configuration name="FileOutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Qstream.FileOutputStreamTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Pexception.*" />
+          <option name="PATTERN" value="org.Qstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IDFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Pexception.IDFormatTest" />
+    <configuration name="FileWriterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Qstream.FileWriterTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Pexception.*" />
+          <option name="PATTERN" value="org.Qstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Pexception.ThrowsException" />
+    <configuration name="ScannerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Qstream.ScannerTest" />
       <module name="Java_practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Pexception.*" />
+          <option name="PATTERN" value="org.Qstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IDFormatTest" />
-      <item itemvalue="Application.ThrowsException" />
-      <item itemvalue="Application.ArrayExceptionTest" />
-      <item itemvalue="Application.AutoCloseTest" />
-      <item itemvalue="Application.ExceptionTest" />
+      <item itemvalue="Application.FileInoutStreamTest" />
+      <item itemvalue="Application.FileInputStreamTest2" />
+      <item itemvalue="Application.FileOutputStreamTest" />
+      <item itemvalue="Application.FileWriterTest" />
+      <item itemvalue="Application.ScannerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IDFormatTest" />
-        <item itemvalue="Application.ThrowsException" />
-        <item itemvalue="Application.AutoCloseTest" />
-        <item itemvalue="Application.ExceptionTest" />
-        <item itemvalue="Application.ArrayExceptionTest" />
+        <item itemvalue="Application.FileWriterTest" />
+        <item itemvalue="Application.FileOutputStreamTest" />
+        <item itemvalue="Application.FileInputStreamTest2" />
+        <item itemvalue="Application.FileInoutStreamTest" />
+        <item itemvalue="Application.ScannerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +235,7 @@
       <workItem from="1702131520467" duration="671000" />
       <workItem from="1702382141644" duration="3320000" />
       <workItem from="1702468365372" duration="6475000" />
-      <workItem from="1702552858967" duration="1891000" />
+      <workItem from="1702552858967" duration="8884000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -454,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702468748056</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Exception 학습">
+      <created>1702554961127</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702554961127</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="arrayList 학습" />
     <MESSAGE value="inheritance(상속) 학습" />
     <MESSAGE value="inheritance(상속) 학습&#10; - Override, 다형성" />
     <MESSAGE value="추상클래스, 추상메소드, 템플릿 메소드 학습" />
@@ -498,7 +504,8 @@
     <MESSAGE value="객체지향 프로그래밍 방식의 interface 사용과 람다식으로 사용하기 비교 / &#10;람다식의 여러가지 사용법 : 변수, 매개변수, 리턴값" />
     <MESSAGE value="패키지명 변경" />
     <MESSAGE value="stream 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream 학습" />
+    <MESSAGE value="Exception 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception 학습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
