@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="FileInputStream, FileOutputStream, FileWriter 학습">
-      <change afterPath="$PROJECT_DIR$/copyUsbFormatter.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Rdecorator/DataInOutStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Rdecorator/FileCopyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Rdecorator/InputStreamReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usbFormatter.exe" afterDir="false" />
+    <list default="true" id="fcfba772-eb02-4935-879e-d842b1b38b55" name="Changes" comment="보조 스트림 FileInputStream, FileOutputStream, InputStreamReader, OutputStreamReader, DataInputStream, DataOutputStream 학습">
+      <change afterPath="$PROJECT_DIR$/serial.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sserialization/RandomAccessFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sserialization/SerializationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +108,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataInOutStreamTest">
+  <component name="RunManager" selected="Application.RandomAccessFileTest">
     <configuration name="DataInOutStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Rdecorator.DataInOutStreamTest" />
       <module name="Java_practice.main" />
@@ -139,32 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Qstream.FileOutputStreamTest" />
-      <module name="Java_practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Qstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileWriterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Qstream.FileWriterTest" />
-      <module name="Java_practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Qstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InputStreamReaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Rdecorator.InputStreamReaderTest" />
       <module name="Java_practice.main" />
@@ -178,20 +148,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomAccessFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Sserialization.RandomAccessFileTest" />
+      <module name="Java_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Sserialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Sserialization.SerializationTest" />
+      <module name="Java_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Sserialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DataInOutStreamTest" />
       <item itemvalue="Application.FileCopyTest" />
       <item itemvalue="Application.InputStreamReaderTest" />
-      <item itemvalue="Application.FileOutputStreamTest" />
-      <item itemvalue="Application.FileWriterTest" />
+      <item itemvalue="Application.RandomAccessFileTest" />
+      <item itemvalue="Application.SerializationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomAccessFileTest" />
+        <item itemvalue="Application.SerializationTest" />
         <item itemvalue="Application.DataInOutStreamTest" />
         <item itemvalue="Application.FileCopyTest" />
         <item itemvalue="Application.InputStreamReaderTest" />
-        <item itemvalue="Application.FileWriterTest" />
-        <item itemvalue="Application.FileOutputStreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +231,7 @@
       <workItem from="1702382141644" duration="3320000" />
       <workItem from="1702468365372" duration="6475000" />
       <workItem from="1702552858967" duration="9115000" />
-      <workItem from="1702900089671" duration="4283000" />
+      <workItem from="1702900089671" duration="7617000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670231592594</created>
@@ -468,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702561966898</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="보조 스트림 FileInputStream, FileOutputStream, InputStreamReader, OutputStreamReader, DataInputStream, DataOutputStream 학습">
+      <created>1702904865499</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1702904865499</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="inheritance(상속) 학습&#10; - Override, 다형성" />
     <MESSAGE value="추상클래스, 추상메소드, 템플릿 메소드 학습" />
     <MESSAGE value="템플릿 메소드 예제" />
     <MESSAGE value="인터페이스 학습" />
@@ -512,7 +514,8 @@
     <MESSAGE value="stream 학습" />
     <MESSAGE value="Exception 학습" />
     <MESSAGE value="FileInputStream, FileOutputStream, FileWriter 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="FileInputStream, FileOutputStream, FileWriter 학습" />
+    <MESSAGE value="보조 스트림 FileInputStream, FileOutputStream, InputStreamReader, OutputStreamReader, DataInputStream, DataOutputStream 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="보조 스트림 FileInputStream, FileOutputStream, InputStreamReader, OutputStreamReader, DataInputStream, DataOutputStream 학습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
